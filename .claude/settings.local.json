@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m src.parser data/Airtel_logs_2.json)",
+      "Bash(python3 -m src.parser data/Airtel_logs_2.json)",
+      "Bash(pip3 install *)",
+      "Bash(python3 -)",
+      "Bash(2>&1)",
+      "Bash(python3 -c ' *)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

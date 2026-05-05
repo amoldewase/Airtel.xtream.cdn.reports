@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+*.egg-info/
+dist/
+build/
+
+# Streamlit cache
+.streamlit/
+
+# Parquet / generated outputs (regenerated on first run)
+data/parsed.parquet
+data/parser_stats.json
+
+# macOS
+.DS_Store
